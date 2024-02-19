@@ -4,6 +4,9 @@
   "description": "Node.js, Express, and MongoDB REST CRUD API",
   "type": "module",
   "main": "server.js",
+  "engines": {
+    "node": ">=20.6.0"
+  },
   "scripts": {
     "start": "node --env-file=config.env server",
     "test": "echo \"Error: no test specified\" && exit 1"
